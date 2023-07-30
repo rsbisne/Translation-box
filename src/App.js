@@ -1,5 +1,11 @@
-function App() {
-  return <div>hi</div>;
-}
+import React from "react";
+import Translate from "./Translate";
+import "./index.css";
 
-export default App;
+export default function App() {
+  return (
+    <div>
+      <Translate />
+    </div>
+  );
+}
